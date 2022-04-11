@@ -1,0 +1,12 @@
+apiVersion: cluster.pml.com.cn/v1alpha1
+kind: Hypernode
+metadata:
+  name: example1-hypernode
+  labels:
+       hypernode.cluster.pml.com.cn/SupplierName: PML
+       hypernode.cluster.pml.com.cn/ResName: pmlC01
+       hypernode.cluster.pml.com.cn/NodeRole: System
+spec:
+  supervisorName: 'xxx'
+  myAreaName: 'xxx'
+  nodeAreaType: 'xxx'

@@ -1,0 +1,8 @@
+apiVersion: cluster.pml.com.cn/v1alpha1
+kind: Hypernode
+metadata:
+  name: hypernode-ac8982137866
+spec:
+  supervisorName: 'field-nanjing'
+  myAreaName: 'cluster-nanjing'
+  nodeAreaType: 'cluste'
