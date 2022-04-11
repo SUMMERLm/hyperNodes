@@ -19,9 +19,9 @@ limitations under the License.
 package externalversions
 
 import (
-	versioned "hyperNodes/pkg/generated/clientset/versioned"
-	cluster "hyperNodes/pkg/generated/informers/externalversions/cluster"
-	internalinterfaces "hyperNodes/pkg/generated/informers/externalversions/internalinterfaces"
+	versioned "github.com/SUMMERLm/hyperNodes/pkg/generated/clientset/versioned"
+	cluster "github.com/SUMMERLm/hyperNodes/pkg/generated/informers/externalversions/cluster"
+	internalinterfaces "github.com/SUMMERLm/hyperNodes/pkg/generated/informers/externalversions/internalinterfaces"
 	reflect "reflect"
 	sync "sync"
 	time "time"

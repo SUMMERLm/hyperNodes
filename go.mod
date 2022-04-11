@@ -1,4 +1,4 @@
-module hyperNodes
+module github.com/SUMMERLm/hyperNodes
 
 go 1.17
 

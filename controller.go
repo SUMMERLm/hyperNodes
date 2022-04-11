@@ -33,11 +33,11 @@ import (
 	"k8s.io/client-go/util/workqueue"
 	"k8s.io/klog/v2"
 
-	//hypernodev1alpha1 "hyperNodes/pkg/apis/cluster/v1alpha1"
-	clientset "hyperNodes/pkg/generated/clientset/versioned"
-	hypernodescheme "hyperNodes/pkg/generated/clientset/versioned/scheme"
-	informers "hyperNodes/pkg/generated/informers/externalversions/cluster/v1alpha1"
-	listers "hyperNodes/pkg/generated/listers/cluster/v1alpha1"
+	//hypernodev1alpha1 "github.com/SUMMERLm/hyperNodes/pkg/apis/cluster/v1alpha1"
+	clientset "github.com/SUMMERLm/hyperNodes/pkg/generated/clientset/versioned"
+	hypernodescheme "github.com/SUMMERLm/hyperNodes/pkg/generated/clientset/versioned/scheme"
+	informers "github.com/SUMMERLm/hyperNodes/pkg/generated/informers/externalversions/cluster/v1alpha1"
+	listers "github.com/SUMMERLm/hyperNodes/pkg/generated/listers/cluster/v1alpha1"
 )
 
 const controllerAgentName = "hyperNode-controller"

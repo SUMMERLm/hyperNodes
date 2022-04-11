@@ -21,7 +21,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	cluster "hyperNodes/pkg/apis/cluster"
+	cluster "github.com/SUMMERLm/hyperNodes/pkg/apis/cluster"
 )
 
 // SchemeGroupVersion is group version used to register these objects

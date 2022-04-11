@@ -19,9 +19,9 @@ limitations under the License.
 package fake
 
 import (
-	clientset "hyperNodes/pkg/generated/clientset/versioned"
-	clusterv1alpha1 "hyperNodes/pkg/generated/clientset/versioned/typed/cluster/v1alpha1"
-	fakeclusterv1alpha1 "hyperNodes/pkg/generated/clientset/versioned/typed/cluster/v1alpha1/fake"
+	clientset "github.com/SUMMERLm/hyperNodes/pkg/generated/clientset/versioned"
+	clusterv1alpha1 "github.com/SUMMERLm/hyperNodes/pkg/generated/clientset/versioned/typed/cluster/v1alpha1"
+	fakeclusterv1alpha1 "github.com/SUMMERLm/hyperNodes/pkg/generated/clientset/versioned/typed/cluster/v1alpha1/fake"
 
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"

@@ -20,7 +20,7 @@ package versioned
 
 import (
 	"fmt"
-	clusterv1alpha1 "hyperNodes/pkg/generated/clientset/versioned/typed/cluster/v1alpha1"
+	clusterv1alpha1 "github.com/SUMMERLm/hyperNodes/pkg/generated/clientset/versioned/typed/cluster/v1alpha1"
 	"net/http"
 
 	discovery "k8s.io/client-go/discovery"

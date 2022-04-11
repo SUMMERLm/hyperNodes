@@ -18,9 +18,9 @@ package main
 
 import (
 	"flag"
-	clientset "hyperNodes/pkg/generated/clientset/versioned"
-	informers "hyperNodes/pkg/generated/informers/externalversions"
-	"hyperNodes/pkg/signals"
+	clientset "github.com/SUMMERLm/hyperNodes/pkg/generated/clientset/versioned"
+	informers "github.com/SUMMERLm/hyperNodes/pkg/generated/informers/externalversions"
+	"github.com/SUMMERLm/hyperNodes/pkg/signals"
 
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/clientcmd"

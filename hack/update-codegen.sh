@@ -26,8 +26,8 @@ set -o pipefail
 #                  k8s.io/kubernetes. The output-base is needed for the generators to output into the vendor dir
 ../vendor/k8s.io/code-generator/generate-groups.sh \
   "deepcopy,client,informer,lister" \
-  hyperNodes/pkg/generated \
-  hyperNodes/pkg/apis \
+  github.com/SUMMERLm/hyperNodes/pkg/generated \
+  github.com/SUMMERLm/hyperNodes/pkg/apis \
   cluster:v1alpha1 \
   --go-header-file $(pwd)/boilerplate.go.txt \
   --output-base $(pwd)/../../

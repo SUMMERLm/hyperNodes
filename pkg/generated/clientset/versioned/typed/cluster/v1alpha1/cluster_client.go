@@ -19,8 +19,8 @@ limitations under the License.
 package v1alpha1
 
 import (
-	v1alpha1 "hyperNodes/pkg/apis/cluster/v1alpha1"
-	"hyperNodes/pkg/generated/clientset/versioned/scheme"
+	v1alpha1 "github.com/SUMMERLm/hyperNodes/pkg/apis/cluster/v1alpha1"
+	"github.com/SUMMERLm/hyperNodes/pkg/generated/clientset/versioned/scheme"
 	"net/http"
 
 	rest "k8s.io/client-go/rest"

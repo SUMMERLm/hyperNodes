@@ -20,10 +20,10 @@ package v1alpha1
 
 import (
 	"context"
-	clusterv1alpha1 "hyperNodes/pkg/apis/cluster/v1alpha1"
-	versioned "hyperNodes/pkg/generated/clientset/versioned"
-	internalinterfaces "hyperNodes/pkg/generated/informers/externalversions/internalinterfaces"
-	v1alpha1 "hyperNodes/pkg/generated/listers/cluster/v1alpha1"
+	clusterv1alpha1 "github.com/SUMMERLm/hyperNodes/pkg/apis/cluster/v1alpha1"
+	versioned "github.com/SUMMERLm/hyperNodes/pkg/generated/clientset/versioned"
+	internalinterfaces "github.com/SUMMERLm/hyperNodes/pkg/generated/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/SUMMERLm/hyperNodes/pkg/generated/listers/cluster/v1alpha1"
 	time "time"
 
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"

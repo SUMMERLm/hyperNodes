@@ -19,7 +19,7 @@ limitations under the License.
 package internalinterfaces
 
 import (
-	versioned "hyperNodes/pkg/generated/clientset/versioned"
+	versioned "github.com/SUMMERLm/hyperNodes/pkg/generated/clientset/versioned"
 	time "time"
 
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
